@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign_up_style.css">
+    <script type="text/javascript">
+        function val() {
+            window.alert("Registration Successful!");
+        }
+    </script>
+    <script type="text/javascript">
+        function validate() {
+            var Email = document.getElementById("email");
+            var Password = document.getElementById("pass");
+            if (Email.value == "" || Password.value == "") {
+                alert("Blank values are not allowed");
+            }
+            else {
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="login.html" onsubmit="return val()">
+            <label>First Name</label>
+            <input type="text" placeholder="">
+            <label>Last Name</label>
+            <input type="text" placeholder="">
+            <label>Email</label>
+            <input type="email" placeholder="" id="email" required>
+            <label>Password</label>
+            <input type="password" placeholder="" id="pass" required>
+            <label>Confirm Password</label>
+            <input type="password" placeholder="" required>
+            <input type="submit" formaction="login.html" value="Register" onclick="validate();">
+        </form>
+        <p class="para">
+            Already have an account? <a href="login.html">Login here</a>
+        </p>
+    </div>
+
+</body>
+
+</html>

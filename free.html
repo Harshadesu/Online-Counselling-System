@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Counselling</title>
+    <link rel="stylesheet" href="free.css">
+    <script src="https://kit.fontawesome.com/a4f66a6286.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function validate() {
+            window.alert("Appointment scheduled Successfully! We will contact you soon.");
+        }
+    </script>
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="gitam_logo.jpg" </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a class="active" href="free.html">Free Consult</a></li>
+            </ul>
+
+        </div>
+        <div class="signup-menu">
+            <ul>
+                <li><a href="Sign_up.html" class="sign-btn"> <span> Sign Up</span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="container1">
+            <form action="index.html">
+
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age">
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Desired date for consultation</label>
+                    <input type="text" id="date" name="date">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <lable for="option">Continue on chat or schedule a call?</lable>
+                    <input type="radio" name="option" value="Chat" /> Chat
+                    <input type="radio" name="option" value="Call" /> Schedule a Call
+
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" formaction="index.html" value="Submit"
+                    onclick="validate();"><b>SUBMIT</b></button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer"></footer>
+    <div class="inner-footer">
+        <div class="social-links">
+            <ul>
+                <li class="social-items"><a href="https://www.facebook.com/gitam.counselling"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li class="social-items"><a href="https://www.instagram.com/gitam_counselling_services/"><i
+                            class="fab fa-instagram"></i></a></li>
+                <li class="social-items"><a href="https://www.linkedin.com/in/gitam-counselling-services-384aaa210/"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li class="social-items"><a href="https://twitter.com/Gitamcounselli1"><i
+                            class="fab fa-twitter-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li class="quick-items"><a href="index.html">Home</a> </li>
+                <li class="quick-items"><a href="about.html">About Us</a> </li>
+                <li class="quick-items"><a href="faq.html">FAQs</a> </li>
+                <li class="quick-items"><a href="Contact_Us.html">Contact Us</a> </li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+</body>
+
+
+</html>

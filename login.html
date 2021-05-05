@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login_style.css">
+    <script type="text/javascript">
+        function validate() {
+            var Email = document.getElementById("email");
+            var Password = document.getElementById("pass");
+            if (Email.value == "" || Password.value == "") {
+                alert("Blank values are not allowed");
+            }
+            else {
+
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function val() {
+            window.alert("Login Successful!");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="text">Login </div>
+            <form action="free.html" onsubmit="return val()">
+                <div class="data">
+                    <label>Email</label>
+                    <input type="text" id="email" required>
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input type="password" id=" pass" required>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="btn">
+                    <div class="inner">
+                    </div>
+                    <button onclick="validate()" type="submit">login</button>
+                </div>
+                <div class="signup-link">
+                    Not a member? <a href="Sign_up.html">Signup now</a></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(115deg, #42455a 10%, #6495ED 90%);
+    font-family:  'Poppins', sans-serif;;
+}
+.container{
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding-top:15px ;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top:20px ;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    margin-top: 20px;
+    border: none;
+    background-color: #6495ED;
+    color: #fff;
+    font-size: 19px;
+}
+.para{
+    text-align: center;
+    color: black;
+    padding-top: 20px ;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para a{
+    color:#6495ED;
+}
